@@ -7,7 +7,7 @@ import { MdOutlineVolumeOff, MdOutlineVolumeUp } from 'react-icons/md';
 import styles from './control.module.css';
 
 function Control(props) {
-  const [audio, setAudio] = useState(true);
+  const [audio, setAudio] = useState(false);
   const {
     play,
     handlePlayClick,
