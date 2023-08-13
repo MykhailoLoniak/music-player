@@ -1,0 +1,52 @@
+.listerConteiner {
+  border: 1px solid black;
+  border-radius: 15px;
+  display: block;
+  height: 200px;
+  width: 200px;
+  margin-top: 55px;
+  overflow: auto;
+}
+.listerConteiner::-webkit-scrollbar {
+  width: 8px; /* Ширина скролбара */
+}
+
+.listerConteiner::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* Колір прозорого скролбару */
+  border-radius: 8px;
+}
+
+.listerConteiner::-webkit-scrollbar-track {
+  background-color: transparent; /* Прозорий фон скролбару */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+.listerConteinerActiv {
+  display: none;
+}
+
+.listerConteinerNotActiv {
+  display: block;
+}
+.img {
+  height: 30px;
+  display: inline-block;
+  border-radius: 15px;
+}
+.coneiner {
+  display: flex;
+  margin: 0 auto;
+  margin-top: 5px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  width: 180px;
+  height: 30px;
+}
+.coneiner p {
+  margin: 5px;
+}
+.coneinerActiv {
+  background-color: grey;
+}
